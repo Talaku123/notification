@@ -1,0 +1,95 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body
+
+{
+  background-color: #052c05 !important;
+  color: snow !important;
+
+}
+
+
+.container
+
+{
+  height: 65vh;
+  left: 0;
+ position: relative;
+ top: 0;
+ width: 100% !important;
+}
+
+.container .not-count
+{
+  color: snow;
+  display: flex;
+  font-size: 40px;
+  font-weight: 900;
+  justify-content: center;
+  margin-top: -3.5em;
+  margin-left: 3.9em;
+  position: fixed;
+}
+
+.container, .not-icon
+
+{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+.container .not-icon .bi
+
+{
+  color: red;
+  font-size: 250px;
+}
+
+
+.container .not-circle
+{
+
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  height: 5vh;
+  margin-top: 43px;
+  opacity: .2;
+  position: absolute;
+  width: 13.9%;
+  
+}
+
+.container .not-icon h3
+
+{
+  font-size: 15px;
+  line-break: anywhere;
+   position: absolute;
+   text-align: center;
+   user-select: none;
+   
+}
+
+
+
+ 
+@media screen and (max-width: 780px) {
+  
+  .container .not-circle 
+  {
+    width: 36% !important ;
+  }
+}
